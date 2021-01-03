@@ -1,0 +1,8 @@
+---
+- name: UBUNTU CIS Hardening
+  hosts: ubuntu_servers
+  ignore_errors: true
+  ignore_unreachable: true
+  roles:
+    - ubuntu-cis-hardening
+  become: yes
