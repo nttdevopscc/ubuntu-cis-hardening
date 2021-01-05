@@ -1,4 +1,4 @@
-# Makefile for Ubuntu1804-CIS
+# Makefile for Ubuntu2004-CIS
 .PHONY: help
 help:
 	@echo
