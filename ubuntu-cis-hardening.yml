@@ -5,4 +5,4 @@
   ignore_unreachable: true
   roles:
     - ubuntu-cis-hardening
-  become_user: true
+  become: true
