@@ -1,6 +1,6 @@
 ---
 - name: UBUNTU CIS Hardening
-  hosts: ubuntu_servers
+  hosts: ubuntu_for_hardening
   ignore_errors: true
   ignore_unreachable: true
   roles:
