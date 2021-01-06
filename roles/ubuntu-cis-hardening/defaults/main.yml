@@ -222,7 +222,7 @@ ubuntu2004cis_rule_5_2_6: true
 ubuntu2004cis_rule_5_2_7: true
 ubuntu2004cis_rule_5_2_8: true
 ubuntu2004cis_rule_5_2_9: true
-ubuntu2004cis_rule_5_2_10: true
+ubuntu2004cis_rule_5_2_10: false # Permit root login for the mean time
 ubuntu2004cis_rule_5_2_11: true
 ubuntu2004cis_rule_5_2_12: true
 ubuntu2004cis_rule_5_2_13: true
