@@ -1,5 +1,8 @@
 ---
 # tasks file for Ubuntu2004-CIS
+- name: Pause for 2 minutes to wait for the VM rebooted after VM provisioning
+  pause:
+      minutes: 2
 - name: Check OS version and family
   fail:
       msg: "This role can only be run agaist Ubuntu 20.04. {{ ansible_distribution }} {{ ansible_distribution_major_version }} is not supported."
