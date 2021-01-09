@@ -1,11 +1,11 @@
 ---
 # tasks file for Ubuntu2004-CIS
-- name: Gather Facts
-  gather_facts:
-  
 - name: Pause for 2 minutes to wait for the VM rebooted after VM provisioning
   pause:
       minutes: 2
+
+- name: Gather Facts
+  gather_facts:
 
 - name: Check OS version and family
   fail:
