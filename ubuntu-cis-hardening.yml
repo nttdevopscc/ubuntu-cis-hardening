@@ -1,4 +1,8 @@
 ---
+- name: Pause for 2 minutes to wait for the VM rebooted after VM provisioning
+  pause:
+      minutes: 2
+      
 - name: UBUNTU CIS Hardening
   hosts: ubuntu_for_hardening
   ignore_errors: true
