@@ -1,6 +1,6 @@
 ---
 - name: UBUNTU CIS Hardening
-  hosts: ubuntu_for_hardening
+  hosts: device_roles_db-tier
   gather_facts: no
   ignore_errors: true
   ignore_unreachable: true
